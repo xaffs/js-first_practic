@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js/style/style.css">
+    <title>JS</title>
+</head>
+<body>
+    <header class="head">
+        <div class="container head__container" id="headluck">
+            <div class="nav container__nav ">
+                <img src="../js/img/javascript.png" alt="javascript" class="logo nav__logo">
+                <h2 class="name nav__name">Java Script</h2>
+            </div>
+        </div>
+    </header>
+    <main class="java" >
+ <div class="btn">
+        <div class="box btn__box">
+            <div class="button btn__button" id="btnclick"><a href="#">PRESS ME</a></div>
+            <input type="checkbox" class="check" id="checkable" onchange="cchek()">
+        </div>
+    <div class="practic2">
+        <label><input type="radio" name = "r1" value="1">0</label>
+        <label><input type="radio" name="r1" value="2">1</label>
+        <label><input type="radio" name="r1" value="3">2</label>
+        <button onclick="radbut()"> Check which one element is used</button>
+    </div>
+    <div class="practic3">
+        <select name="" id="Select" onchange="Selected()">
+            <option value="">go</option>
+            <option value="">one</option>
+            <option value="">two</option>
+            <option value="">three</option>
+        </select>
+    </div>
+    <div class="practic4">
+        <input type="range" oninput="ranger2()" id="r3">
+        <p class="pOpt practic4__pOpt" id="ten"></p>
+        <div id="test" class="block1"></div>
+    </div>
+    <div classs="navik" id="navmenu">
+        <div class="menu-item">Меню 1
+             <div class="submenu">Под меню 1</div></div>   
+
+        <div class="menu-item">Меню 2 
+             <div class="submenu">Под меню 2 </div></div>
+
+        <div class="menu-item">Меню 3
+            <div class="submenu">Под меню 3</div></div>      
+    </div>
+    <div class="practic5">
+    <div id="tabs">
+            <div class="tab whiteborder">Tab1</div>
+            <div class="tab">Tab2</div>
+            <div class="tab">Tab3</div>
+        <div class="padd">
+                <div class="tabContent">123</div>
+                <div class="tabContent">345</div>
+                <div class="tabContent">456</div>
+        </div>
+    </div>
+  </div>
+    <div class="btn2">
+        <button id="myBtn">Open Modal</button>
+      <div id="myModal" class="modal">
+         <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal window</p>
+         </div>
+      </div>
+    </div>
+    <div class="practic6">
+        <button onclick="myMove()" class="bish">Animation</button>
+        <div id="myContan">
+            <div id="myAnim">
+            </div>
+        </div>
+    </div>
+    <div class="practic10">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1/3</div>
+                <img src="../js/img/Bronsplåt_pressbleck_Öland_vendeltid.jpg" style="width: 100px;" alt="#">
+                <div class="letttext"></div>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">2/3</div>
+                <img src="../js/img/images.png" style="width: 100px;" alt="#">
+                <div class="letttext"></div>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">3/3</div>
+                <img src="../js/img/weapon_dancer.jpg" style="width: 100px;" alt="#">
+                <div class="letttext"></div>
+                <a href="" class="prev" onclick="plusSides(-1)">&#10094</a>
+                <a href="" class="next" onclick="plusSides(1)">&#10095</a>
+            </div>
+        </div>
+    <br>
+    <div styles="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+ </div>
+ </div>
+
+        <script src="../js/js/script.js"></script>
+    </main>
+</body>
+</html>
